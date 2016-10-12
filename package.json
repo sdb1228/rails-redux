@@ -6,6 +6,11 @@
   "directories": {
     "test": "test"
   },
+  "scripts": {
+    "build": "webpack",
+    "build:watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "axios": "^0.15.0",
     "classnames": "^2.2.5",
@@ -37,15 +42,12 @@
     "style-loader": "^0.13.1",
     "webpack": "^1.13.2"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sdb1228/rails-redux.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "sdb1228 && felixmc",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/sdb1228/rails-redux/issues"
   },
